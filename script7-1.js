@@ -11,7 +11,7 @@ let atsakymas = arYraIntervale(skaicius, intervaloPradzia, intervaloPabaiga);
 console.log(atsakymas);
 
 function arYraIntervale (sk, intPr, intPb){
-    if ((sk >= intPr) && sk <= intPb){
+    if ((sk >= intPr) && (sk <= intPb)){
     return true;
     }
     else{
