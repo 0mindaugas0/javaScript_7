@@ -5,7 +5,7 @@ let atsakymas = skaiciausRadimas(skaicius);
 
 
 function skaiciausRadimas(x){
-    if ((x > 0 ) && (x % 10 == 0)){
+    if ((x < 0 ) && (x % 10 == 0)){         // reikėjo neigiamo
         alert("Įvestas skaičius dalinasi iš 10 ir yra teigimas");
     }
     else{
